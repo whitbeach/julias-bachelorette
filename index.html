@@ -10,6 +10,7 @@
 body{margin:0;background:#FFFFFF}
 a{color:#1C1B19}a:hover{color:#55524C}
 @media (max-width: 760px){
+  .moods{grid-template-columns:minmax(0,1fr) !important;gap:4rem !important}
   .site-header{grid-template-columns:minmax(0,1fr) !important;row-gap:0.75rem}
   .split{grid-template-columns:minmax(0,1fr) !important}
   .split > *{min-height:30rem !important}
@@ -143,6 +144,23 @@ a{color:#1C1B19}a:hover{color:#55524C}
       <img src="img_8819_1024.jpg" alt="The couple making silly faces outdoors" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 35%">
     </div>
 
+  </section>
+
+  <section aria-label="Mood boards" style="background: #FFFFFF; padding: 7rem 3rem 7rem">
+    <div class="moods" style="max-width: 72rem; margin: 0 auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4rem; align-items: start">
+      <figure style="margin: 0; display: flex; flex-direction: column; gap: 1.25rem">
+        <figcaption style="margin: 0; text-align: center; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; color: #1C1B19">The Arrival</figcaption>
+        <img src="moodboard_thursday.jpg" alt="Thursday mood board: sun hats, bead kits and hat making" onerror="this.style.visibility='hidden'" style="display: block; width: 100%; height: auto">
+      </figure>
+      <figure style="margin: 0; display: flex; flex-direction: column; gap: 1.25rem">
+        <figcaption style="margin: 0; text-align: center; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; color: #1C1B19">The Activity</figcaption>
+        <img src="moodboard_friday.jpg" alt="Friday mood board: hike, boat, pedal bike, margaritas and cozy night in" onerror="this.style.visibility='hidden'" style="display: block; width: 100%; height: auto">
+      </figure>
+      <figure style="margin: 0; display: flex; flex-direction: column; gap: 1.25rem">
+        <figcaption style="margin: 0; text-align: center; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; color: #1C1B19">The Mama Mia</figcaption>
+        <img src="moodboard_saturday.jpg" alt="Saturday mood board: pool day, martinis and blue disco outfits" onerror="this.style.visibility='hidden'" style="display: block; width: 100%; height: auto">
+      </figure>
+    </div>
   </section>
 </div>
 </body>
