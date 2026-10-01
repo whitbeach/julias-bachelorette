@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Julia's Bachelorette</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&amp;family=DM+Sans:wght@400;500&amp;display=swap">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#1C1B19}a:hover{color:#55524C}
+@media (max-width: 760px){
+  .split{grid-template-columns:minmax(0,1fr) !important}
+  .split > *{min-height:30rem !important}
+  .hero-text{font-size:3.25rem !important}
+  .jmark{font-size:9rem !important}
+  .arches{grid-template-columns:minmax(0,1fr) !important;gap:5rem !important}
+  .archmark{font-size:8rem !important}
+}
+</style>
+</head>
+<body>
+<div style="min-height: 100vh; display: flex; flex-direction: column; background: #FFFFFF; color: #1C1B19; font-family: 'DM Sans', 'Helvetica Neue', sans-serif">
+
+  <header style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; padding: 2.5rem 1.5rem 2rem; border-bottom: 1px solid #E6E3DE">
+    <h1 style="margin: 0; font-family: 'Kalnia', 'Didot', Georgia, serif; font-style: italic; font-synthesis: style; font-weight: 300; font-size: 3.5rem; line-height: 1.05; letter-spacing: 0.01em; text-align: center; color: #1C1B19">Julia's Bachelorette</h1>
+  </header>
+
+  <main class="split" style="flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); min-height: 32rem">
+
+    <section class="hero-img" aria-label="Feature image" style="position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 32rem; background: #4F5A4C; overflow: hidden">
+      <img src="coastal.jpg" alt="Coastal cliffs above a white-sand beach and turquoise ocean" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center">
+      <div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 45%; background: linear-gradient(to top, rgba(20,24,18,0.5), rgba(20,24,18,0))"></div>
+      <h2 class="hero-text" style="position: relative; z-index: 1; text-shadow: 0 1px 18px rgba(0,0,0,0.25); margin: 0; padding: 0 3rem 3rem; max-width: 36rem; font-family: 'Kalnia', 'Didot', Georgia, serif; font-style: italic; font-synthesis: style; font-weight: 300; font-size: 5rem; line-height: 0.98; letter-spacing: -0.01em; color: #FFFFFF">Coastal Disco</h2>
+    </section>
+
+    <section aria-label="Arch image" style="display: flex; align-items: center; justify-content: center; min-height: 32rem; padding: 3rem; background: #FFFFFF">
+      <div style="position: relative; width: 100%; max-width: min(24rem, calc((100vh - 20rem) * 0.68)); min-width: 14rem; padding-top: 3rem">
+        <div style="width: 100%; aspect-ratio: 3 / 4.4; border-radius: 999px 999px 0 0; background: #D8CFC3; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 1.5rem; box-sizing: border-box">
+          <span style="font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: #4A443C">Arch image placeholder</span>
+        </div>
+        <span class="jmark" aria-hidden="true" style="position: absolute; top: -1.5rem; left: -2.25rem; font-family: 'Kalnia', 'Didot', Georgia, serif; font-style: italic; font-synthesis: style; font-weight: 300; font-size: 13rem; line-height: 1; color: #1C1B19">J</span>
+      </div>
+    </section>
+
+  </main>
+
+  <section aria-label="Arch gallery" style="background: #FFFFFF; padding: 7rem 3rem 8rem; border-top: 1px solid #E6E3DE">
+    <div class="arches" style="max-width: 72rem; margin: 0 auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4rem; align-items: end">
+      <div style="position: relative; width: 100%; max-width: 20rem; justify-self: center; padding-top: 7.5rem">
+        <div style="width: 100%; aspect-ratio: 3 / 4.4; border-radius: 999px 999px 0 0; background: #D8CFC3; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 1.5rem; box-sizing: border-box">
+          <span style="font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: #4A443C">Image 1 placeholder</span>
+        </div>
+        <span class="archmark" aria-hidden="true" style="position: absolute; top: -1.25rem; left: -1.75rem; font-family: 'Kalnia', 'Didot', Georgia, serif; font-style: italic; font-synthesis: style; font-weight: 300; font-size: 10rem; line-height: 1; color: #1C1B19">B</span>
+        <div aria-hidden="true" style="position: absolute; top: 4rem; left: 7rem; width: 5rem; height: 1px; background: #1C1B19"></div>
+        <h3 style="position: absolute; top: 5rem; left: 10.5rem; margin: 0; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; color: #1C1B19">The Boat</h3>
+      </div>
+      <div style="position: relative; width: 100%; max-width: 20rem; justify-self: center; padding-top: 7.5rem">
+        <div style="width: 100%; aspect-ratio: 3 / 4.4; border-radius: 999px 999px 0 0; background: #D8CFC3; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 1.5rem; box-sizing: border-box">
+          <span style="font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: #4A443C">Image 2 placeholder</span>
+        </div>
+        <span class="archmark" aria-hidden="true" style="position: absolute; top: -1.25rem; left: -1.75rem; font-family: 'Kalnia', 'Didot', Georgia, serif; font-style: italic; font-synthesis: style; font-weight: 300; font-size: 10rem; line-height: 1; color: #1C1B19">P</span>
+        <div aria-hidden="true" style="position: absolute; top: 4rem; left: 7rem; width: 5rem; height: 1px; background: #1C1B19"></div>
+        <h3 style="position: absolute; top: 5rem; left: 10.5rem; margin: 0; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; color: #1C1B19">The Pool</h3>
+      </div>
+      <div style="position: relative; width: 100%; max-width: 20rem; justify-self: center; padding-top: 7.5rem">
+        <div style="width: 100%; aspect-ratio: 3 / 4.4; border-radius: 999px 999px 0 0; background: #D8CFC3; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 1.5rem; box-sizing: border-box">
+          <span style="font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: #4A443C">Image 3 placeholder</span>
+        </div>
+        <span class="archmark" aria-hidden="true" style="position: absolute; top: -1.25rem; left: -1.75rem; font-family: 'Kalnia', 'Didot', Georgia, serif; font-style: italic; font-synthesis: style; font-weight: 300; font-size: 10rem; line-height: 1; color: #1C1B19">D</span>
+        <div aria-hidden="true" style="position: absolute; top: 4rem; left: 7rem; width: 5rem; height: 1px; background: #1C1B19"></div>
+        <h3 style="position: absolute; top: 5rem; left: 10.5rem; margin: 0; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; color: #1C1B19">The Disco</h3>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>
