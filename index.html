@@ -10,6 +10,7 @@
 body{margin:0;background:#FFFFFF}
 a{color:#1C1B19}a:hover{color:#55524C}
 @media (max-width: 760px){
+  .site-header{grid-template-columns:minmax(0,1fr) !important;row-gap:0.75rem}
   .split{grid-template-columns:minmax(0,1fr) !important}
   .split > *{min-height:30rem !important}
   .hero-text{font-size:3.25rem !important}
@@ -22,8 +23,10 @@ a{color:#1C1B19}a:hover{color:#55524C}
 <body>
 <div style="min-height: 100vh; display: flex; flex-direction: column; background: #FFFFFF; color: #1C1B19; font-family: 'DM Sans', 'Helvetica Neue', sans-serif">
 
-  <header style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; padding: 2.5rem 1.5rem 2rem; border-bottom: 1px solid #E6E3DE">
+  <header class="site-header" style="display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; column-gap: 2rem; padding: 2.5rem 1.5rem 2rem; border-bottom: 1px solid #E6E3DE">
+    <p style="margin: 0; text-align: center; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; color: #1C1B19">4/15-18/2027</p>
     <h1 style="margin: 0; font-family: 'Kalnia', 'Didot', Georgia, serif; font-style: italic; font-synthesis: style; font-weight: 300; font-size: 3.5rem; line-height: 1.05; letter-spacing: 0.01em; text-align: center; color: #1C1B19">Julia's Bachelorette</h1>
+    <p style="margin: 0; text-align: center; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.2; letter-spacing: 0.08em; text-transform: uppercase; color: #1C1B19">San Diego, CA</p>
   </header>
 
   <main class="split" style="flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); min-height: 32rem">
